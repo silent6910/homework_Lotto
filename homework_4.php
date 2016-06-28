@@ -17,9 +17,9 @@ echo $vot;*/
         $L=rand(1,48);
         if($Lotto[$L-1]!=0)
         {
-        $Lotto[$L-1]=0;
-        $p=$i+1;
-        echo "第 $p 個號碼是$L".'<br>';
+            $Lotto[$L-1]=0;
+            $p=$i+1;
+            echo "第 $p 個號碼是$L".'<br>';
         }
         else 
             $i--;
